@@ -21,5 +21,6 @@
 .directorio{
 	color:#0000FF;
 	font-weight:bold;
+	padding:15px;
 	cursor:pointer;
 }

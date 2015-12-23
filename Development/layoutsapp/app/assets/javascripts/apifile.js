@@ -32,7 +32,7 @@ function exito(){
 }
 
 function mostrar(){
-	document.getElementById("entrada").value = "";
+	document.getElementById("archivo_origen").value = "";
 	zonadatos.innerHTML = "";
 	espacio.getDirectory(ruta, null, leerdir, errores);
 }
@@ -81,3 +81,4 @@ function errores(e){
 }
 
 window.addEventListener("load",comenzar,false);
+
